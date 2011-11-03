@@ -1,3 +1,9 @@
+# revision 21632
+# category Package
+# catalog-ctan /macros/latex/contrib/chemexec
+# catalog-date 2011-03-06 18:27:32 +0100
+# catalog-license lppl1.3
+# catalog-version 1.0
 Name:		texlive-chemexec
 Version:	1.0
 Release:	1
@@ -43,6 +49,7 @@ exercise sheets, with separating printing of solutions.
 %doc %{_texmfdistdir}/doc/latex/chemexec/chemexec_de.tex
 %doc %{_texmfdistdir}/doc/latex/chemexec/chemexec_en.pdf
 %doc %{_texmfdistdir}/doc/latex/chemexec/chemexec_en.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ exercise sheets, with separating printing of solutions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
