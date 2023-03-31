@@ -1,6 +1,6 @@
 Name:		texlive-chemexec
 Version:	21632
-Release:	1
+Release:	2
 Summary:	Creating (chemical) exercise sheets
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemexec
