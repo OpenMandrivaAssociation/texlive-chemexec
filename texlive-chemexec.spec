@@ -3,7 +3,7 @@ Version:	21632
 Release:	2
 Summary:	Creating (chemical) exercise sheets
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemexec
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chemexec
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemexec.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemexec.doc.r%{version}.tar.xz
